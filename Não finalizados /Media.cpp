@@ -3,8 +3,8 @@
 using namespace std;
 int main()
 {
-  int teste, prova, media;
-  char *nome;
+  double teste, prova, media;
+  char nome[10];
   printf("Media das notas\n");
   cout << "Nome do aluno: " << '\n';cin >> nome;
   cout << "Nota do teste: " << '\n';cin >> teste;
