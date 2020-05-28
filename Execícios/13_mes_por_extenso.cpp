@@ -60,7 +60,8 @@ int main()
     else
     {
       cout << "Opção inválida" << '\n';
+      cout << "Escolha um número:" << '\n';cin >> num;
     }
   }
-  cout << "O mês equivalente é " <<mesExtenso<< '\n';
+  cout << "O mês equivalente é "<<mesExtenso<<"\n";
 }
