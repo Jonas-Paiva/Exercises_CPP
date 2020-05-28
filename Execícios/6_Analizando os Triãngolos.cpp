@@ -35,10 +35,15 @@ int main()
  		{
  			cout << "Esses lados NÃO forma um triangolo.\n";
 		}
-
 			cout << "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n";
 			cout << "Desaja repetir?\nDIGITE  SIM ou NAO: "; cin >> res;
 			cout << "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n";
+		
+		if (res != 1)
+		{
+			cout <<"FIM \n";
+		}
+		
 	}
-system("pause");
+
 }
